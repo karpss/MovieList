@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3"
+  }
+}

@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`Movie Details > renders 1`] = `
+<div>
+  <h1>
+    Loading...
+  </h1>
+</div>
+`;
